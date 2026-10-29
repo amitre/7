@@ -13,3 +13,16 @@
 
 /* Subtitle directly beneath packages heading */
 .sectionHead .sectionSubtitle{max-width:780px;margin:12px 0 0;line-height:1.8;color:var(--muted)}
+
+/* Live pricing summary in request form */
+.priceSummary{border:1px solid #d8e1d9;border-radius:10px;background:#f6f8f3;padding:18px;display:flex;flex-direction:column;gap:11px}
+.priceSummary>div{display:flex;justify-content:space-between;align-items:center;gap:14px;font-size:14px}
+.priceSummary strong{font-weight:700;color:var(--deep)}
+.priceSummary .priceSummaryTotal{border-top:1px solid #d8e1d9;padding-top:13px;font-weight:700;font-size:16px}
+.priceSummary .priceSummaryTotal strong{font-size:25px}
+.priceSummary small{font-size:12px;color:var(--muted);line-height:1.6}
+
+/* Prominent contact phone */
+.contactPhone{display:inline-flex;align-items:center;gap:10px;direction:rtl;font-size:clamp(24px,3vw,32px);font-weight:800;line-height:1.3;white-space:nowrap}
+.contactPhoneNumber{font-size:inherit;font-weight:800;direction:ltr;unicode-bidi:isolate}
+.contactPhoneName{font-size:.72em;font-weight:700}
