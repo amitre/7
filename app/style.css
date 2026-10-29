@@ -4,3 +4,9 @@
 .contactPhone{display:inline-flex;align-items:center;gap:10px;margin-top:18px;color:var(--forest);font-weight:700;font-size:19px;direction:ltr}
 
 .pkgPrice{display:flex;flex-direction:column;gap:4px;margin:18px 0 10px}.pkgPrice strong{font-size:32px;color:var(--deep);line-height:1.2}.pkgPrice span{font-size:12px;color:var(--muted)}.pkg.featured{border:2px solid var(--forest);box-shadow:0 12px 35px #1d3a2a17}.pkgBody>a:hover{color:#142d21}
+.extrasField{border:1px solid #dce2da;border-radius:8px;padding:16px;margin:0;min-width:0}
+.extrasField legend{font-size:14px;font-weight:700;padding:0 7px}
+.extrasField p{font-size:12px;color:var(--muted);margin:0 0 12px}
+.extrasChoices{display:flex;flex-wrap:wrap;gap:10px}
+.formGrid .extraChoice{display:inline-flex;flex-direction:row;align-items:center;gap:9px;border:1px solid #dce2da;border-radius:7px;padding:11px 15px;background:#fdfdfb;cursor:pointer;font-size:14px}
+.formGrid .extraChoice input{width:17px;height:17px;accent-color:var(--forest);margin:0}
